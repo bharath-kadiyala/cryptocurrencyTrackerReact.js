@@ -1,0 +1,83 @@
+.CryptocurrenciesList-con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  /* border: 1px solid red; */
+  padding: 20px;
+}
+
+.CryptocurrenciesList-head {
+  font-size: 26px;
+  color: #00e7ff;
+  text-align: center;
+}
+
+.CryptocurrenciesList-img {
+  width: 760px;
+  height: 260px;
+  /* width: 75vw;
+  height: 26vh; */
+}
+
+@media screen and (min-width: 768px) {
+  .CryptocurrenciesList-img {
+    width: 900px;
+    height: 340px;
+  }
+}
+
+.box-con {
+  border: 3px solid #00e7ff;
+  max-width: 700px;
+  width: 100%;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.titles-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #092e33;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.title-sty {
+  font-size: 18px;
+  color: #ffff;
+  font-weight: 500;
+}
+
+.usdAndEuro-con {
+  display: flex;
+  align-items: center;
+}
+
+.usdAndEuro-con-add {
+  margin-right: 60px;
+}
+
+.eachItem-con {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.loader-sty {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
